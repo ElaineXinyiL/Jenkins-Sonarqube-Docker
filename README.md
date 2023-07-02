@@ -17,6 +17,14 @@ The Jenkins-Sonarqube-Docker project leverages popular tools in the software dev
 
 - **Docker**: Docker is a containerization platform that allows applications to be packaged and run in isolated environments. It simplifies deployment by ensuring consistent runtime environments across different platforms, reducing dependency issues and improving portability.
 
+Here's a brief overview of the project workflow:
+
+1. Create an AWS EC2 instance and install Jenkins on it.
+2. Set up a GitHub repository and integrate it with Jenkins.
+3. Configure Sonarqube to analyze code quality in the GitHub repository.
+4. Create a Docker image of the application.
+5. Deploy the Docker image using Jenkins.
+
 ## Usage
 
 To utilize the Jenkins-Sonarqube-Docker pipeline, follow these guidelines:
